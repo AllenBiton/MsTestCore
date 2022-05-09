@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
 	<PropertyGroup>
@@ -16,7 +16,7 @@
 	
   <ItemGroup>
     <Reference Include="Typemock.ArrangeActAssert">
-      <HintPath>C:\Program Files (x86)\Typemock\Isolator\9.1\PublicAssemblies\Typemock.ArrangeActAssert.Dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Typemock\Isolator\9.1\PublicAssemblies\Typemock.ArrangeActAssert.Dll</HintPath>
     </Reference>
   </ItemGroup>
 
