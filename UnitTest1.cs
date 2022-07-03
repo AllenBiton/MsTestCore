@@ -5,6 +5,7 @@ using TypeMock;
 using System.Diagnostics.CodeAnalysis;
 using System.Collections;
 using System;
+using System.Diagnostics;
 
 namespace Mstest_Core
 {
@@ -15,8 +16,14 @@ namespace Mstest_Core
         [TestMethod]
         public void IsEvenNum_Test_ReturnsFalse()
         {
-            foreach (DictionaryEntry de in Environment.GetEnvironmentVariables())
-                Console.WriteLine("  {0} = {1}", de.Key, de.Value);
+            //foreach (DictionaryEntry de in Environment.GetEnvironmentVariables())
+              //  Console.WriteLine("  {0} = {1}", de.Key, de.Value);
+
+            //Process[] pname = Process.GetProcessesByName("notepad");
+            //if (pname.Length == 0)
+            //    MessageBox.Show("nothing");
+            //else
+                //MessageBox.Show("run");
 
             Mathe obj = new Mathe();
 
