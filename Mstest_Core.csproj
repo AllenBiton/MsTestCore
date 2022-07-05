@@ -6,8 +6,6 @@
 
 	<PropertyGroup>
 		<DefineConstants>MSTEST</DefineConstants>
-		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-		<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
 	</PropertyGroup>
 	
   <ItemGroup>
