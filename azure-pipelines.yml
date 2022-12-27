@@ -25,7 +25,7 @@ steps:
 
 - task: VSTestWithTypemock@9
   inputs:
-    testAssembly: 'bin\Debug\Mstest_Core.dll'
+    testAssembly: 'bin\Debug\net6.0\Mstest_Core.dll'
     logMocking: true
     vsTestVersion: 'latest'
     autoDeployEnabled: false
