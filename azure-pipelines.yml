@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
-
+  Default
+  
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
@@ -21,11 +21,11 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: 'MsTest_Core.sln'
+    projects: 'Mstest_Core.sln'
 
 - task: VSTestWithTypemock@9
   inputs:
-    testAssembly: 'bin\Debug\MsTest_Core.dll'
+    testAssembly: 'bin\Debug\Mstest_Core.dll'
     logMocking: true
     vsTestVersion: 'latest'
     autoDeployEnabled: false
