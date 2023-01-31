@@ -16,10 +16,10 @@
 	
   <ItemGroup>
     <Reference Include="Typemock.ArrangeActAssert">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Typemock\Isolator\9.1\PublicAssemblies\Typemock.ArrangeActAssert.Dll</HintPath>
+      <HintPath>"C:\source\isolator\Output\AnyCPU\Debug\PublicAssemblies\Typemock.ArrangeActAssert.dll"</HintPath>
     </Reference>
     <Reference Include="TypeMock">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Typemock\Isolator\9.1\PublicAssemblies\TypeMock.Dll</HintPath>
+      <HintPath>"C:\source\isolator\Output\AnyCPU\Debug\PublicAssemblies\TypeMock.dll"</HintPath>
     </Reference>
   </ItemGroup>
 
